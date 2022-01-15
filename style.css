@@ -26,6 +26,7 @@ main > section img {
 }
 
 main > section button {
+    align-items: center;
     background-color: #00BFFF;
     border: none;
     border-radius: 4px;
@@ -39,17 +40,26 @@ main > section button {
     text-transform: uppercase;
 }
 
-#detalhes-container {
-    font-weight: bold;
-    list-style: none;
-    width: 90%;
+.lista-personagens {
+   	margin: 0 auto;
+	padding: 50px 0;
 }
 
-#detalhes-container > li {
-    align-items: baseline;
-    display: flex;
+.lista-personagens > li {
+    display: inline-block;
+	text-align: center;
+	width: auto;
+	vertical-align: top;
+	margin: 0;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
-#detalhes-container > li p {
+.lista-personagens > li p {
     color: white;
+}
+.lista-personagens > li p.campo {
+    color: #000000;
 }
