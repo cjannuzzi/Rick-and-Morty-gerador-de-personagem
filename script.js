@@ -1,8 +1,8 @@
 const imagem = document.querySelector('img');
 const botao = document.querySelector('#botao');
-const nomeDoPersonagem = document.querySelector('#nome');
-const especie = document.querySelector('#especie');
-const condicao = document.querySelector('#status');
+const nomeDoPersonagem = document.querySelector('#nome1');
+const especie = document.querySelector('#especie1');
+const condicao = document.querySelector('#status1');
 
 gerarValorAleatorio = () => {
     return Math.floor(Math.random() * 671);
