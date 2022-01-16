@@ -47,15 +47,16 @@ main > section button {
 }
 
 .lista-personagens > li {
-    display: inline-block;
-	text-align: center;
-	width: auto;
-	vertical-align: top;
-	margin: 0;
-	padding: 30px 20px;
-	box-sizing: border-box;
+    box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
+    display: inline-block;
+    margin: 0;
+    padding: 30px 20px;
+	text-align: center;
+    vertical-align: top;
+	width: auto;
+	vertical-align: top;
 }
 
 .lista-personagens > li p {
